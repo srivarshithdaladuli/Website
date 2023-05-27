@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Developer', 'Prototyper', 'Illustrator', 'Photographer'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -69,7 +69,7 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="Designer + Developer"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
+        description="Design portfolio of Srivarshith Daladuli — a product designer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
       <Intro
@@ -83,10 +83,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="User Authentication"
+        description="User authentication in Django involves creating a user model, defining authentication views and URLs, and using Django's built-in authentication forms and views in templates to allow users to login, logout, and change their password. It is a crucial component of web application security."
         buttonText="View project"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="https://github.com/srivarshithdaladuli/User-Authentication-Django"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -104,10 +104,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Spam Mail Detection Using Machine Learning"
+        description="Spam mail detection using machine learning involves developing a model that can automatically classify emails as either spam or not spam (also known as ham). This can be achieved by training a machine learning algorithm on a dataset of labeled emails, where each email is classified as either spam or ham. The algorithm then uses this training data to learn patterns and features that distinguish spam from non-spam emails."
         buttonText="View website"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="https://github.com/srivarshithdaladuli/E-mail-Spam-Detection-using-machine-learning"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -128,10 +128,10 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Amazon Fine Food Reviews"
+        description="The main goal of this project is to analyze some large dataset and perform sentiment classification on it. Sentiment classification is a type of text classification in which a given text is classified according to the sentimental polarity of the opinion it contains."
         buttonText="View project"
-        buttonLink="/projects/slice"
+        buttonLink="https://github.com/srivarshithdaladuli/Amazon-Fine-Food-Reviews-Sentiment_Analysis"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',

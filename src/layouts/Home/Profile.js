@@ -21,16 +21,13 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+    Hi, I'm Srivarshith, an open-source backend developer from India currently working at{' '}
+      <Link href="https://appwrite.io/">Appwrite</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+    When I'm not immersed in coding, I love to capture moments through photography. It's a wonderful way to document my experiences and create lasting memories. Additionally, I enjoy playing video games during my free time. Exploring virtual worlds and challenging myself in various gaming adventures is always exciting.{''}
+      <Link href="/projects/volkihar-knight"></Link>  
+      I'm also open to hearing about new projects, so feel free to drop me a line if you'd like to connect or discuss anything further.
     </Text>
   </Fragment>
 );

@@ -145,6 +145,8 @@ export const ProjectSummary = ({
     </div>
   );
 
+  
+
   return (
     <Section
       className={styles.summary}
